@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Basic</title>
+        <script>
+            function callFiveTimes(callback) {
+                for(var i = 0; i < 5; i++) { // 5회 반복
+                    callback();
+                }
+            }
+
+            var callback = function() {
+                alert('함수 호출');
+            }
+
+            callFiveTimes(callback);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
